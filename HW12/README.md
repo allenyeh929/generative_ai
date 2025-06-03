@@ -1,5 +1,8 @@
 ## 作業內容 : 期末專案提案
 ### 專案名稱 : Retrieval-Augmented Generation 聊天機器人
+執行平台： Google Colab
+
+開發工具： Python、LangChain、OpenAI API、FAISS、Gradio
 #### 一、專案動機與目標
 隨著生成式 AI 的發展，傳統聊天機器人容易出現「幻覺（hallucination）」問題，導致回答與事實不符。Retrieval-Augmented Generation（RAG）是一種結合語言模型與知識檢索技術的方法，能使 AI 回答更準確、可信。本專案旨在實作一個能針對給定文件回答問題的 AI 聊天機器人。
 #### 二、方法概述
